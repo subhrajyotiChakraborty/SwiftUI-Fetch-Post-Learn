@@ -11,6 +11,8 @@
 		224381482546D51500382193 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224381472546D51500382193 /* ContentView.swift */; };
 		2243814A2546D51500382193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224381492546D51500382193 /* Assets.xcassets */; };
 		2243814D2546D51500382193 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2243814C2546D51500382193 /* Preview Assets.xcassets */; };
+		2243815B2546E10400382193 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243815A2546E10400382193 /* PostView.swift */; };
+		2243815E2546E79B00382193 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243815D2546E79B00382193 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		224381492546D51500382193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2243814C2546D51500382193 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2243814E2546D51500382193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2243815A2546E10400382193 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		2243815D2546E79B00382193 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				224381452546D51500382193 /* SwiftUI_Fetch_Post_LearnApp.swift */,
 				224381472546D51500382193 /* ContentView.swift */,
+				2243815A2546E10400382193 /* PostView.swift */,
+				2243815D2546E79B00382193 /* Post.swift */,
 				224381492546D51500382193 /* Assets.xcassets */,
 				2243814E2546D51500382193 /* Info.plist */,
 				2243814B2546D51500382193 /* Preview Content */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				224381482546D51500382193 /* ContentView.swift in Sources */,
+				2243815B2546E10400382193 /* PostView.swift in Sources */,
 				224381462546D51500382193 /* SwiftUI_Fetch_Post_LearnApp.swift in Sources */,
+				2243815E2546E79B00382193 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +277,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Fetch-Post-Learn/Preview Content\"";
+				DEVELOPMENT_TEAM = R8LKHVDLVM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-Fetch-Post-Learn/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -290,6 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Fetch-Post-Learn/Preview Content\"";
+				DEVELOPMENT_TEAM = R8LKHVDLVM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-Fetch-Post-Learn/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
